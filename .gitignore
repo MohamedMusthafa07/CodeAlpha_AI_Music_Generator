@@ -1,41 +1,41 @@
-# Virtual environments
+
 .venv/
 venv/
 env/
 
-# Python
+
 __pycache__/
 *.pyc
 *.pyo
 .pytest_cache/
 .ipynb_checkpoints/
 
-# Editor / OS
+
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 
-# Secrets (this project needs none, but never commit them)
+
 .env
 
-# Logs
+
 logs/*
 !logs/.gitkeep
 
-# Datasets (user-provided, may be large or copyrighted)
+
 data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
 
-# Trained models (can be large) and generated music
+
 models/*
 !models/.gitkeep
 outputs/*
 !outputs/.gitkeep
 
-# Temporary files
+
 *.tmp
 *.wav
 *.sf2
