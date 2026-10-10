@@ -1,0 +1,9 @@
+# Core (Python 3.10 - 3.12 recommended)
+music21>=9.1
+tensorflow>=2.16,<3
+numpy
+matplotlib>=3.8
+streamlit>=1.35
+
+# Testing
+pytest>=8.0
